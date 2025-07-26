@@ -1,0 +1,15 @@
+[project]
+name = "ensemble_of_minds"
+version = "0.1.0"
+description = "Ensemble of Minds: LangChain framework with proposer, verifier, refiner, synthesizer for GSM8K benchmarking."
+
+[project.dependencies]
+langchain = "^0.1.0"
+langgraph = "^0.0.30"
+langchain-google-genai = "^0.0.8"
+datasets = "^2.18.0"
+typing-extensions = "^4.0.0"
+
+# For Google Gemini API
+# You may also need: google-generativeai (if required by langchain-google-genai)
+google-generativeai = "^0.3.0"
