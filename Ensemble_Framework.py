@@ -18,7 +18,7 @@ class State(TypedDict):
 
 builder = StateGraph(State)
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.0, google_api_key="AIzaSyBr01wyBax_1znBBa87t_N1QskRoWxuzRM")
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.0, google_api_key="")
 
 # System prompts for each role
 PROPOSER_PROMPT = "You are the Proposer. Given a math word problem, propose a detailed step-by-step solution."
